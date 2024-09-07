@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .heading-1{
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+
+  }
+  
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4588a0;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #044157;
+  }
+  
+  #resume-output {
+    margin-top: 20px;
+  }
+  .hidden {
+    display: none;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 0.9em;
+  }
+  
+  .resume{
+    padding: 50px;
+    border: 1px solid black;
+  }
+  .resume h1{
+    font-weight: 400;
+  }
+  .resume-header{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .resume-header p{
+    font-weight: 200;
+    
+  }
+  .resume-para{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  ul{
+    list-style: none;
+  }
+  .header{
+    background: #000;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .resume {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .resume-header {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .resume-para {
+    font-size: 1.25em;
+    color: #777;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .resume-paragraph {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  h2.resume-subheader {
+    font-size: 1.75em;
+    color: #34495E;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #34495E;
+    padding-bottom: 5px;
+  }
+  .resume-inputs{
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style: none;
+  }
+  
+  ul li {
+    font-size: 1.1em;
+    color: #27AE60;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #34495E;
+    font-size: 1.5em;
+  }
+  .hidden {
+    display: none;
+  }
+  i{
+    font-size: 12px;
+    padding: 10px;
+     border: 1px solid black;
+     margin: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .resume {
+        padding: 20px;
+        margin: 20px;
+    }
+  
+    .resume-header {
+        font-size: 2em;
+    }
+  
+    .resume-subheader {
+        font-size: 1.5em;
+    }
+  
+    ul li {
+        font-size: 1em;
+    }
+  }
