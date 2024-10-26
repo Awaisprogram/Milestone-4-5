@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+
+}
+
+.icon-xmark {
+  padding: 0.5rem 2.5rem; /* Equivalent to px-10 py-2 in Tailwind */
+}
+
+
+.container{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content{
+  width: 70%;
+}
+
+.content h1{
+  font-size: 4rem;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+button{
+  margin-top: 30px;
+  padding: 20px;
+  padding-inline: 50px;
+  text-align: center;
+  border: none;
+  font-size: 1.5rem;
+  
+  border-radius: 5px;
+  background: hsl(188, 39%, 49%);
+  transition: all 0.3s ease-in;
+}
+button:hover{
+   background:  hsl(188, 39%, 29%);
+}
+
+.image img{
+  width: 400px;
+}
+
+@media (max-width:768px) {
+  body{
+    height: auto;
+  }
+  .container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content{
+    width: 100%;
+  }
+  .content h1{
+    font-size: 3rem;
+  }
+  
+}
