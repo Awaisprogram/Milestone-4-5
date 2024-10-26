@@ -1,40 +1,65 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
   }
+
   .heading-1{
     text-align: center;
     font-size: 3rem;
+    color: white;
   }
   
   fieldset {
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 30px;
     margin-bottom: 10px;
   }
   
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   legend {
     font-weight: bold;
     font-size: 1.2rem;
-
+    color: white;
   }
   
   
   label {
+    color: white;
     display: block;
     margin-top: 10px;
     font-size: 1rem;
   }
   
-  input, textarea {
+  textarea {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    overflow: hidden;
   }
+  input{
+    width: 100%;
+    padding: 14px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  
   
   button {
     margin-top: 10px;
     padding: 10px 15px;
+    font-size: 1rem;
     background-color: #4588a0;
     color: white;
     border: none;
@@ -47,6 +72,9 @@ body {
   
   #resume-output {
     margin-top: 20px;
+  }
+  #resume-output h2{
+    color: white;
   }
   .hidden {
     display: none;
